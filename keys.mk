@@ -1,4 +1,4 @@
-PRODUCT_CERTIFICATE_OVERRIDES := \
+lineage-privprivCERTIFICATE_OVERRIDES := \
     com.android.adbd:com.android.adbd.certificate.override \
     com.android.adservices.api:com.android.adservices.api.certificate.override \
     com.android.adservices:com.android.adservices.certificate.override \
@@ -54,5 +54,5 @@ PRODUCT_CERTIFICATE_OVERRIDES := \
     com.google.pixel.vibrator.hal:com.google.pixel.vibrator.hal.certificate.override \
     com.qorvo.uwb:com.qorvo.uwb.certificate.override
 
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/releasekey
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/priv-keys/releasekey
 PRODUCT_EXTRA_RECOVERY_KEYS :=
